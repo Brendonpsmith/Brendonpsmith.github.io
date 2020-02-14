@@ -1,0 +1,58 @@
+html {
+	margin: 0;
+	padding: 0;
+    background: #e6e9e9;
+    background-image: url("wood.jpg")
+}
+	}
+}
+abbr {
+    text-decoration: none
+}
+body {
+	font: 100% 'Domine', serif;
+	line-height: 1.88889;
+	color: #6D6466;
+	background: #E3DBDB;
+	margin: 0 auto;
+    max-width: 900px;
+	padding: 2em 2em 4em;
+}
+p {
+	margin-top: 1em;
+	text-align: justify;
+	}
+h1, h2 {
+    Color: #4E3D42;
+    text-align: center;
+    font-family: bold normal 'Domine', serif;
+    margin: 1em 0 0.5em 0;
+	font-size: 36px;
+	line-height: 42px;
+	text-transform: uppercase;
+	text-shadow: 0 1px white, 0 2px #777;
+}
+h3 {
+    padding: 0em 1em 1em;
+	font: italic normal 1.4em 'Domine', serif;
+	letter-spacing: 1px;
+	margin-bottom: 0;
+	color: #4E3D42;
+	}
+ul {
+  list-style-image: url("bullets.png");
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-radius: 55%;
+}
+th {color:#4E3D42}
+a:hover, a:focus, a:active {
+	text-decoration: underline;
+	color: #FFED65;
+	}
+a:link {
+    font-weight: bold; }
