@@ -1,35 +1,115 @@
 <!DOCTYPE HTML>
-<html lang="en">
+<html lang="en" id="resume">
     <head>
     <title>Resume</title>
     <link rel = "stylesheet"
    type = "text/css"
-   href = "styles.css" />
+   href = "../styles.css">
     <meta name="description" content="An Html version of my Resume"/>
     <meta name="author" content="Brendon Smith"/>
+        <style>
+	html {
+	margin: 0;
+	padding: 0;
+    background: #e6e9e9;
+    background-image: url("wood.jpg")}
+abbr {
+    text-decoration: none
+}
+body {
+	font: 100% 'Domine', serif;
+	line-height: 1.88889;
+	color: #6D6466;
+	background: #E3DBDB;
+	margin: 0 auto;
+    max-width: 900px;
+	padding: 2em 2em 4em;
+}
+p {
+	margin-top: 1em;
+	text-align: justify;
+	}
+h1, h2 {
+    Color: #4E3D42;
+    text-align: center;
+    font-family: bold normal 'Domine', serif;
+    margin: 1em 0 0.5em 0;
+	font-size: 36px;
+	line-height: 42px;
+	text-transform: uppercase;
+	text-shadow: 0 1px white, 0 2px #777;
+}
+h3 {
+    padding: 0em 1em 1em;
+	font: italic normal 1.4em 'Domine', serif;
+	letter-spacing: 1px;
+	margin-bottom: 0;
+	color: #4E3D42;
+	}
+ul {
+  list-style-image: url("bullets.png");
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-radius: 55%;
+}
+th {color:#4E3D42}
+a:hover, a:focus, a:active {
+	text-decoration: underline;
+	color: #FFED65;
+	}
+a:link {
+    font-weight: bold; }
+.job {font-weight: bold}
+
+    </style>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-159927418-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-159927418-1');
+</script>
     </head>
 <body>
-<p>Jump to:</p>
+    <nav>
+     <div class="topnav">
+  <a href="../index.html">Home</a>
+  <a href="../csszen/zenindex.html">Css Zen</a>
+  <a class="active" href="Smith-Resume.html">Resume</a>
+  <a href="../portfolio.html">Portfolio</a>
+  <a href="../Videowork.html">Videography</a>
+  <a href="../MyStory.html">My Story</a>
+    </div>
+
+<p class="resume">Jump to:</p>
 <a href="#Obective">Objective Statement</a> <br>
 <a href="#Education">Education</a> <br>
 <a href="#Expierence">Expierence</a> <br>
 <a href="#Contact">Contact</a>
-    <h1>Brendon Smith</h1>
+    </nav>
+     <main>
+    <h1 class="resume">Brendon Smith</h1>
     <img src="Resumephoto.png" alt="Image of Author" class="center">
     <h2 id="Objective">Objective Statement</h2>
-    <p>To obtain a creative position that enhances my work expierence and provides an opportunity for upward mobility. Seeking an opportunity to learn from active in field expierence and gain practical knowledge outside of the classroom.</p>
+    <p class="resume">To obtain a creative position that enhances my work expierence and provides an opportunity for upward mobility. Seeking an opportunity to learn from active in field expierence and gain practical knowledge outside of the classroom.</p>
     <h2 id="Education">Education</h2>
-    <p>James Madison University: Sophmore &gt; May 2017-Present<br>
+    <p class="resume">James Madison University: Sophmore &gt; May 2017-Present<br>
     Social Media Arts and Design Major Gpa: 3.7 <br>
     Participated in a Study Abroad Program in London gaining a more diverse world view. <br>
     Learned skills and abilities in a variety of new media fields including: film, image editing, writing, and general business function.
     </p>
-    <ul>
+    <ul class="resume">
     <li>Writing Minor <br> Learned how to edit in a professional capacity as well as craft compelling literary arguments.</li>
     <li>Business Minor <br> Gained a basic understanding of general business functions as well as how to operate in the business world.</li>
     </ul>
     <h2 id="Expierence">Work Expierence</h2>
-    <ul>
+    <ul class="resume">
     <li><span class="job">Argias Resturant</span> &gt; November 2015-May 2016 <br>
         Cutomer service and communication skills.</li>
     <li><span class="job">Jefferson Golf Course</span> &gt; June 2016-Oct 2016 <br>
@@ -43,8 +123,8 @@
     </ul>
     <table>
   <tr>
-    <th>Skills</th>
-    <th>Extra Cirriculars</th>
+    <th class="resume">Skills</th>
+    <th class="resume">Extra Cirriculars</th>
   </tr>
   <tr>
     <td>
@@ -63,15 +143,14 @@
       </td>
   </tr>
 </table>
-        <footer>
-    <h3 id="Contact">Contact</h3>
-            <p>Email: <a href="mailto:Brendonsmithva@yahoo.com?subject=resume">Brendonsmithva@yahoo.com</a>
+         </main>
+    <h3 id="Contact" class="resume">Contact</h3>
+            <p class="resume">Email: <a class="resume" href="mailto:Brendonsmithva@yahoo.com?subject=resume">Brendonsmithva@yahoo.com</a>
         <br>
-                Linkedin: <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile">brendon-smith7</a>
+                Linkedin: <a class="resume" href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile">brendon-smith7</a>
         <br>
-                My Website: <a href="http://brendonsmith.org/">Brendonsmith.org</a>
+                My Website: <a class="resume" href="http://brendonsmith.org/">Brendonsmith.org</a>
             </p>
-        </footer>
         
 </body>
 </html>

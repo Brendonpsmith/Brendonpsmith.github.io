@@ -1,0 +1,162 @@
+.topnav {
+  background-color: #668586;
+  overflow: hidden;}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;}
+
+.topnav a:hover {
+  background-color: #D6E5E3;
+  color: black;}
+
+.topnav a.active {
+  background-color: #82AEB1;
+  color: white;}
+.header {
+  padding: 68px;
+  text-align: center;
+  background: #93C6D6;
+  color: white;
+  font-size: 30px;
+  height: 150px;
+}
+body {background-color: #D6E5E3}
+figure {
+    display: inline-block;
+    margin: 10px; /* adjust as needed */
+}
+figure img {
+    vertical-align: top;
+}
+figure figcaption {
+    border: thin silver solid;
+    text-align: center;
+    font-style: italic;
+    font-size: smaller;
+    margin: 0.5em;
+    padding: 0.5em;
+}
+h1,h2,h3 {
+    color: #668586;
+    text-align: center;
+}
+.ip {
+    margin: 0px 90px;
+}
+.vp {
+    margin: 0px 70px;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: #93C6D6;
+    color: #fff;
+    border-style: none;
+}
+.box {
+  padding-top: 25px;
+  padding-right: 30px;
+  padding-left:30px;
+  padding-bottom: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 50px;
+  border-style: double;
+}
+#orig {
+    float: right;
+    padding-top: 30px;
+    border-radius: 405px;
+}
+/*color change*/
+    .subhead {
+      width:100%;
+
+      margin: 0 auto;
+      text-align: center;
+
+      color:#313131;
+      font-size:45px;
+      font-weight: bold;
+
+      -webkit-animation:colorchange 20s infinite alternate;
+    }
+  @-webkit-keyframes colorchange {
+      0% {
+
+        color: blue;
+      }
+
+      10% {
+
+        color: #8e44ad;
+      }
+
+      20% {
+
+        color: #1abc9c;
+      }
+
+      30% {
+
+        color: #d35400;
+      }
+
+      40% {
+
+        color: blue;
+      }
+
+      50% {
+
+        color: #34495e;
+      }
+
+      60% {
+
+        color: blue;
+      }
+
+      70% {
+
+        color: #2980b9;
+      }
+      80% {
+
+        color: #f1c40f;
+      }
+
+      90% {
+
+        color: #2980b9;
+      }
+
+      100% {
+
+        color: pink;
+      }
+    }
+/* porfolio style */
+.port {
+    text-align:center;
+    display:block;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+.pt {
+    font-size: 25px;
+    padding-left: 40px;
+}
+.pth1 {
+    font-size: 45px;
+}
+.pth2 {
+    font-size: 35px;
+}
+/* portfolio style */
