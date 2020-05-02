@@ -1,0 +1,54 @@
+ footer {
+        margin-left:-1%;
+        width:102%;
+    }
+
+.carousel-indicators {
+    filter: invert(1)
+}
+
+.carousel-control-prev-icon {
+ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23FFCA33' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23FFCA33' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important; }
+
+.navbar {
+    color:#143109;
+    background-color: #8CB369;
+}
+
+.custom-toggler .navbar-toggler-icon
+{   background-image: url(
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+        }
+
+.nav-item,
+.nav-link,
+.navbar-brand {color:#FFFFFF;}
+.active {color:#F9DB22;}
+
+a:hover {color:#143109;}
+
+h1, h2 { color:#143109;}
+
+  <link href="https://fonts.googleapis.com/css2?family=Scheherazade&family=Staatliches&display=swap" rel="stylesheet">
+        h1,h2 {
+            font-family: 'Scheherazade', serif;
+        }
+        body {
+            font-family: 'Scheherazade', serif;
+        }
+
+a { color:#143109; }
+
+.card-header, .card-footer { background:#8CB369;}
+
+.page-footer {
+    background-color: #8CB369;
+    color:#143109}
+
+.jumbotron {
+    background-color: #F4E285;
+}
